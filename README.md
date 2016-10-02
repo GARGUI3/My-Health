@@ -5,7 +5,9 @@ Aplicación móvil para android de recordatorios de medicamentos y dieta.
 Elaborado por: 
 
 Alejandro García Guillén
+
 Ingrid Marlene Alavez Sumano
+
 Pavel Llaguno López
 
 EL servidor se encuentra en:
