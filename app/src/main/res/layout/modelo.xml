@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="5dp"
+    android:layout_height="150dp">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/elementoImagen"
+            android:padding="10dp"
+            android:src="@drawable/sandwich" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Titulo"
+            android:id="@+id/tituloTxt"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/descripcionTxt"
+            android:layout_alignStart="@+id/descripcionTxt" />
+
+        <TextView
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Horario"
+            android:id="@+id/horarioTxt"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/tituloTxt"
+            android:layout_toRightOf="@+id/elementoImagen"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Descripcion"
+            android:id="@+id/descripcionTxt"
+            android:padding="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/horarioTxt"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="31dp"
+            android:layout_toRightOf="@+id/elementoImagen"
+            android:layout_toEndOf="@+id/elementoImagen" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
